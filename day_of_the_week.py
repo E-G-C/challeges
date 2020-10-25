@@ -6,7 +6,6 @@
 # example s="Mon" k = 3 should return "Thu"
 
 def solution(s, k):
-
     days_of_the_week = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
     week_length = 7
     current_index = days_of_the_week.index(s)
