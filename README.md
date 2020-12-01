@@ -6,7 +6,8 @@ Having the days of the week in the form of  "Mon", "Tue", "Wed", "Thu", "Fri", "
 see [solution](./day_of_the_week.py)
 
 ## Max value in a string data
-Given a table in the form of headers and data lines separated by **\n** and values are separated by **,** return the max value given a column name example:  
+Given a table in the form of headers and data lines separated by **\n** and values are separated by **,** return the max value given a column name.  
+Example:  
 given  S = "id,name,age,act.,room,dep.\n1,Jack,68,T,13,8\n17,Betty,28,F,15,7"   
 C = "age"  
 it should return 68  
@@ -22,8 +23,8 @@ as you can see, the maximum value in the column **age** is 68
 see [solution](./max_value_string_table.py)  
 
 ## Minimum missing integer
-Given a list of integers return the minimum postive integer missing from the list
-example:
+Given a list of integers return the minimum postive integer missing from the list  
+Example:
 |            list            | missing vlaue |
 |:--------------------------:|:-------------:|
 |          [1, 2, 3]         |       4       |
@@ -40,3 +41,16 @@ Given a string where each line resprest a day of work and each day is represente
 and other day can be represented in 12 hours format like:  
  ```11-1, 2:30-4```  
  see [solution](./time_sheet.py)  
+ 
+ ## Add two elements in list to a target number
+Given an array of integers nums and an integer target, return the indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order.  
+Example:  
+Input: nums = [2,7,11,15], target = 9  
+Output: [0,1]  
+Output: Because nums[0] + nums[1] == 9, we return [0, 1].  
+
+Example 2:  
+Input: nums = [3,2,4], target = 6  
+Output: [1,2]  
+
+see [solution](./LeetCode/Two%20Sum/two_sum.py)
