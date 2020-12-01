@@ -42,7 +42,7 @@ and other day can be represented in 12 hours format like:
  ```11-1, 2:30-4```  
  see [solution](./time_sheet.py)  
  
- ## Add two elements in list to a target number
+ ## Add two elements from a list to a target number
 Given an array of integers nums and an integer target, return the indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order.  
 Example:  
 Input: nums = [2,7,11,15], target = 9  
